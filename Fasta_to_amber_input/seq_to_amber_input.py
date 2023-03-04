@@ -18,21 +18,3 @@ with open('amber_input.in', 'w') as f:
       f.write('savepdb prot parambuilder_input.pdb\n')
       f.write('\n')
       f.write('quit')
-
-
-
-
-
-
-
-
-#sba = [*fasta_seq]
-#swa = ['A','R','N','D','C','Q','E','G','H','I','L','K','M','F','P','S','T','W','Y','V','O','U']
-#lst = []
-#for i in sba:
-#    for j in swa:
-#        if i == j:
-#            lst.append(amino_acids[j])
-#setup_IDP = (', '.join(lst))
-#setup_IDP = setup_IDP.replace(',','')
-#print(setup_IDP)
